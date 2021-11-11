@@ -1,5 +1,6 @@
 body{
     background-image: url(homebg.jpg);
+    font-family: monospace;
 }
 .div1{
     display: flex;
@@ -19,7 +20,7 @@ a:hover{
 hr{
     display: flex;
     float: left;
-    width: 45%;
+    width: 35%;
     margin-left: 50px;
     margin-top: 20px;
 }
@@ -34,6 +35,25 @@ hr{
 h1{
     justify-content: left;
 }
-p{
-    size: 30%;
+.span{
+    size: 300px;
+}
+.div4{
+    display: flex;
+    float: right;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 70%;
+    margin-right: 20%;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 70px 70px 70px 70px;
+    font-size: larger;
+}
+img{
+    display: flex;
+    float: left;
+    margin-right: 0%;
+    margin-top: 0%;
 }
